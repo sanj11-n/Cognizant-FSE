@@ -9,7 +9,7 @@ This repository tracks the implementation modules for Week 5, highlighting domai
 ### 1. Data Model Mapping Entity (`UserEntity.java`)
 * Reflects domain configurations, mimicking structural constraints (`@NotBlank`, `@Email`, and `@Min`).
 
-### 2. Validation Handler interceptor (`ValidatorEngine.java`)
+### 2. Validation Handler Interceptor (`ValidatorEngine.java`)
 * Checks fields against system constraints and drops unverified payloads safely.
 
 ### 3. Spring Data Query Access Layer (`UserRepository.java`)
@@ -23,4 +23,4 @@ This repository tracks the implementation modules for Week 5, highlighting domai
 ## 📸 Endpoint Verification Output
 
 ### Simulated Validation Operations & Custom Finder Logs
-![Week 5 Verification](../../../screenshots/ex2.png)
+![Week 5 Verification](../screenshots/ex2.png)
